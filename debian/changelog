@@ -1,0 +1,5 @@
+docker-cli-rnapp (1.13.0) stable; urgency=medium
+
+  * Added support for docker-cli app on readynas
+
+ -- Mhynlo <mhynlo@mhynlo.io>  Tue, 28 Feb 2017 23:09:43 -0800
