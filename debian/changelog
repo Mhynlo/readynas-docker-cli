@@ -1,3 +1,9 @@
+docker-cli-rnapp (17.03.0) stable; urgency=medium
+
+  * Updating to Docker Community Edition
+
+ -- Mhynlo <mhynlo@mhynlo.io>  Thu, 02 Mar 2017 22:28:43 -0800
+
 docker-cli-rnapp (1.13.0) stable; urgency=medium
 
   * Added support for docker-cli app on readynas

@@ -8,11 +8,10 @@ Homepage: https://www.docker.com/
 
 Package: docker-cli-rnapp
 Architecture: amd64
-Depends: ${shlibs:Depends}, ${misc:Depends}, readynasos  (>= 6.6.0~T12), kernelplus, docker-engine (>= 1.13.0), aufs-tools, cgroupfs-mount
-Conflicts: docker-engine (>=1.14.0)
+Depends: ${shlibs:Depends}, ${misc:Depends}, readynasos  (>= 6.6.0~T12), kernelplus, docker-ce (>= 17.03.0~ce-0~debian-jessie), aufs-tools, cgroupfs-mount
+Conflicts: docker-ce (>= 17.07.0~ce-0~debian-jessie)
 Provides: plymouth
 Description: Docker CLI App for ReadyNAS
  This app helps manages the Docker CLI resources for ReadyNAS.
-XB-Repo: deb https://apt.dockerproject.org/repo debian-jessie main
-XB-Repo-Keyserver: hkp://p80.pool.sks-keyservers.net:80
-XB-Repo-Key-ID: 58118E89F3A912897C070ADBF76221572C52609D
+XB-Repo: deb https://download.docker.com/linux/debian jessie stable
+XB-Repo-Key-Url: https://download.docker.com/linux/debian/gpg
