@@ -1,3 +1,9 @@
+docker-cli-rnapp (17.03.1) stable; urgency=medium
+
+  * Updated docker-cli to become more of a framework than an app.
+
+ -- Mhynlo <mhynlo@mhynlo.io>  Fri, 16 Jun 2017 17:04:41 -0700
+
 docker-cli-rnapp (17.03.0) stable; urgency=medium
 
   * Updating to Docker Community Edition
