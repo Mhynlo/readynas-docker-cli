@@ -1,1 +1,3 @@
+rn-files/config.xml apps/docker-cli-rnapp
+rn-files/logo.png apps/docker-cli-rnapp
 rn-files/docker.service etc/systemd/system
