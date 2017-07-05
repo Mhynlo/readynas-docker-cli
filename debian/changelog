@@ -1,3 +1,9 @@
+docker-cli-rnapp (17.06.0) stable; urgency=medium
+
+  * Updating to mainstream.
+
+ -- Mhynlo <mhynlo@mhynlo.io>  Wed, 05 Jul 2017 11:58:08 -0700
+
 docker-cli-rnapp (17.03.0) stable; urgency=medium
 
   * Updating to Docker Community Edition
