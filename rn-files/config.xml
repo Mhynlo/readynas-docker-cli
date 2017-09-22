@@ -7,7 +7,7 @@
   <ConfigURL/>
   <LaunchURL/>
   <ReservePort/>
-  <DebianPackage>docker-cli-rnapp</DebianPackage>
+  <DebianPackage>docker-ce</DebianPackage>
   <ServiceName>docker.service</ServiceName><!-- If start/stop need to start/stop service, specify service name -->
   <Description lang="en-us">This app helps manages the Docker CLI resources for ReadyNAS.</Description>
 </Application>
