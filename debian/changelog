@@ -1,3 +1,10 @@
+docker-cli-rnapp (17.09.0-ml1) stable; urgency=medium
+
+  * Updating the docker version in meta package
+  * Allow docker-ce to update to the latest
+
+ -- Mhynlo <mhynlo@mhynlo.io>  Thu, 28 Sep 2017 10:21:43 -0700
+
 docker-cli-rnapp (17.06.0-ml1) stable; urgency=medium
 
   * Fixed the removal of the app by removing the btrfs subvolumes and removing the app directory

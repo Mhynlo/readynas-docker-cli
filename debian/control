@@ -8,8 +8,7 @@ Homepage: https://www.docker.com/
 
 Package: docker-cli-rnapp
 Architecture: amd64
-Depends: ${shlibs:Depends}, ${misc:Depends}, readynasos (>= 6.7.0), linux-image-extra, docker-ce (>= 17.06.0~ce-0~debian), aufs-tools, cgroupfs-mount
-Conflicts: docker-ce (>= 17.07.0~ce-0~debian-jessie)
+Depends: ${shlibs:Depends}, ${misc:Depends}, readynasos (>= 6.7.0), linux-image-extra, docker-ce (>= 17.09.0~ce-0~debian), aufs-tools, cgroupfs-mount
 Provides: plymouth
 Description: Docker CLI App for ReadyNAS
  This app helps manages the Docker CLI resources for ReadyNAS.
