@@ -1,5 +1,5 @@
 #! /bin/sh
-# postrm script for docker-cli
+# postrm script for docker-cli-rnapp
 #
 # see: dh_installdeb(1)
 
@@ -18,8 +18,12 @@ set -e
 
 case "$1" in
     purge)
-      btrfs subvolume delete `btrfs subvolume list -o /apps/docker-cli-rnapp/ | awk '{print "/"substr($9,2)}'`
-      rm -R /apps/docker-cli-rnapp/*
+      if [ -n "$(btrfs subvolume list -o /apps/docker-cli-rnapp/ | awk '{print "/"substr($9,2)}')" ]; then
+        btrfs subvolume delete $(btrfs subvolume list -o /apps/docker-cli-rnapp/ | awk '{print "/"substr($9,2)}')
+      fi
+      if [ -d /apps/docker-cli-rnapp ]; then
+        rm -R /apps/docker-cli-rnapp/*
+      fi
 
       event_push app readynasd '<delete-s resource-type="LocalApp" resource-id="LocalApp"><LocalApp appname="docker-cli-rnapp" success="1" reboot="0"/></delete-s>' 0 0
        ;;

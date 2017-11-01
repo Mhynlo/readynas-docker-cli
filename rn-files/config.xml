@@ -2,7 +2,7 @@
   <Category>APP_CAT_PRODUCTIVITY</Category>
   <Name>Docker CE CLI</Name><!-- Any desciptive name, upto 48 chars -->
   <Author>Mhynlo</Author><!-- Authers name. upto 48 chars -->
-  <Version>17.06.0-ml1</Version><!-- Version -->
+  <Version>17.09.0-ml2</Version><!-- Version -->
   <RequireReboot>0</RequireReboot><!-- If non-zero, it indicate reboot is required. -->
   <ConfigURL/>
   <LaunchURL/>
