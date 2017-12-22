@@ -1,4 +1,6 @@
 #! /bin/sh
 
+sed -i 's/<DebianPackage>docker-cli-rnapp</<DebianPackage>docker-ce</g' /apps/docker-cli-rnapp/config.xml
+
 systemctl daemon-reload
 systemctl restart docker.service
