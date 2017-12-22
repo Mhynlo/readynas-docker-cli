@@ -1,13 +1,13 @@
-<Application resource-id="docker-cli-rnapp"><!-- 'resource-id' must be AppName -->
+<Application resource-id="docker-cli-rnapp"
   <Category>APP_CAT_PRODUCTIVITY</Category>
-  <Name>Docker CE CLI</Name><!-- Any desciptive name, upto 48 chars -->
-  <Author>Mhynlo</Author><!-- Authers name. upto 48 chars -->
-  <Version>17.09.0-ml2</Version><!-- Version -->
-  <RequireReboot>0</RequireReboot><!-- If non-zero, it indicate reboot is required. -->
+  <Name>Docker CE CLI</Name>
+  <Author>Mhynlo</Author>
+  <Version>17.09.1-ml1</Version>
+  <RequireReboot>0</RequireReboot>
   <ConfigURL/>
   <LaunchURL/>
   <ReservePort/>
-  <DebianPackage>docker-ce</DebianPackage>
-  <ServiceName>docker.service</ServiceName><!-- If start/stop need to start/stop service, specify service name -->
+  <DebianPackage>docker-cli-rnapp</DebianPackage>
+  <ServiceName>docker.service</ServiceName>
   <Description lang="en-us">This app helps manages the Docker CLI resources for ReadyNAS.</Description>
 </Application>
