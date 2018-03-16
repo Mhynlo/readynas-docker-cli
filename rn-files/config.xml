@@ -1,8 +1,8 @@
-<Application resource-id="docker-cli-rnapp"
+<Application resource-id="docker-cli-rnapp">
   <Category>APP_CAT_PRODUCTIVITY</Category>
   <Name>Docker CE CLI</Name>
   <Author>Mhynlo</Author>
-  <Version>17.09.1-ml1</Version>
+  <Version>17.12.1-ml1</Version>
   <RequireReboot>0</RequireReboot>
   <ConfigURL/>
   <LaunchURL/>

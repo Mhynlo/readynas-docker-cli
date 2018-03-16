@@ -1,4 +1,4 @@
-docker-cli-rnapp (17.09.1-ml1) UNRELEASED; urgency=medium
+docker-cli-rnapp (17.12.1-ml1) UNRELEASED; urgency=medium
 
   * NETGEAR package fix to work with their repo/api
 
